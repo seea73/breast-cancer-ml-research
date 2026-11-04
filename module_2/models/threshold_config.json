@@ -1,0 +1,8 @@
+{
+  "threshold": 0.1519792377948761,
+  "selection_dataset": "validation",
+  "selection_metric": "image_level_balanced_accuracy",
+  "positive_class": "malignant",
+  "positive_label": 1,
+  "decision_rule": "score >= threshold"
+}

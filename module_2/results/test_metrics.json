@@ -1,0 +1,17 @@
+{
+  "threshold": 0.1519792377948761,
+  "images": 1486,
+  "patient_groups": 13,
+  "roc_auc": 0.6590996515679444,
+  "average_precision": 0.7456091225516833,
+  "accuracy": 0.6123822341857336,
+  "balanced_accuracy": 0.5714341463414634,
+  "malignant_recall": 0.8292682926829268,
+  "benign_recall": 0.3136,
+  "precision": 0.6246719160104987,
+  "f1": 0.7125748502994012,
+  "true_negatives": 196,
+  "false_positives": 429,
+  "false_negatives": 147,
+  "true_positives": 714
+}

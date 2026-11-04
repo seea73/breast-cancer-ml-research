@@ -1,0 +1,12 @@
+{
+  "threshold": 0.35000000000000003,
+  "test_patients": 25,
+  "test_images": 50,
+  "abnormal_images": 19,
+  "normal_images": 31,
+  "abnormal_mean_dice": 0.2233000190088043,
+  "abnormal_mean_iou": 0.14739178376514803,
+  "abnormal_images_with_zero_overlap": 8,
+  "normal_images_with_any_highlight": 27,
+  "normal_mean_highlighted_fraction": 0.006871869487147178
+}

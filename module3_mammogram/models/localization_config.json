@@ -1,0 +1,10 @@
+{
+  "image_size": 256,
+  "threshold": 0.35000000000000003,
+  "threshold_selection": "Maximum validation abnormal-image mean Dice",
+  "target": "Approximate MIAS abnormality circles, benign and malignant",
+  "validation_mean_dice": 0.2356734550284201,
+  "validation_mean_iou": 0.16545023135262887,
+  "validation_normal_images_with_any_highlight": 22,
+  "validation_normal_images": 32
+}

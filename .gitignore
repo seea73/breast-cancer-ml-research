@@ -1,0 +1,103 @@
+﻿# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large model files
+*.keras
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# BEGIN Breast Cancer Project safety rules
+
+# Python environments and cache
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+**/.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and private configuration
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+*.pem
+*.key
+
+# Datasets and downloaded archives
+data/
+**/data/
+datasets/
+**/datasets/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Trained models and checkpoints
+*.keras
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Raw and patient-level experimental results
+**/results/*.csv
+**/splits/*.csv
+**/*metadata*.csv
+**/*predictions*.csv
+**/*per_image*.csv
+
+# Private backups and snapshots
+**/protected_snapshots/
+**/notebook_backups/
+**/*_clean_draft.ipynb
+**/*_protected_draft.ipynb
+**/*_before_*.ipynb
+
+# Original experimental notebook with development history
+module_2/experiments/fine_tune_last10/02_fine_tune_last10.ipynb
+
+# Dataset-derived example image figure
+**/figures/training_image_samples.png
+
+# END Breast Cancer Project safety rules
+
+# Exclude local development backups
+/backups/
+
+# Original notebooks with saved outputs
+/notebooks/01_cell_feature_classification.ipynb
+/notebooks/02_tissue_image_classification.ipynb
+/notebooks/03_mammogram_localization.ipynb
